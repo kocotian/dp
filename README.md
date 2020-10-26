@@ -2,6 +2,22 @@
 
 Don't Panic to prosty, lekki i modularny daemon działający w tle. Jego głównym zadaniem jest wykonywanie modułów będących najczęściej skryptami powłoki (chociaż mogą być również napisane w dowolnym innym języku programowania) i przekazywanie ich standardowego wyjścia do powiadomień. Moduły najczęściej pobierają i przetwarzają dane z serwera i wypisują je na standardowe wyjście.
 
+![Powiadomienie z modułu COVID](img/covid.png)
+
+Powiadomienie z modułu COVID
+
+![dpm - Półgraficzny menadżer dp](img/dpm.png)
+
+dpm - Półgraficzny menadżer dp
+
+![Pobieranie modułu przy użyciu dpmi](img/moduleget.png)
+
+Pobieranie modułu przy użyciu dpmi
+
+![Usuwanie modułu przy użyciu dpmi](img/moduleremove.png)
+
+Usuwanie modułu przy użyciu dpmi
+
 Don't Panic jest jedynie daemonem, do jego obsługi używa się oddzielnych programów niewbudowanych w rdzeń daemona, jak np. "Don't Panic Manager" służący m.in. do konfiguracji odstępów czasowych w jakich będą wykonywane moduły oraz "Don't Panic Module Installer" służący do pobierania i usuwania modułów.
 Sprawia to, że daemon podąża Filozofią UNIXa - "Pisz programy które robią jedną rzecz i robią ją dobrze. Rób programy aby pracowały ze sobą. Rób programy które łapią strumienie tekstowe, ponieważ to uniwersalny interfejs".
 
