@@ -1,5 +1,8 @@
 # Don't Panic
 
+> [!NOTE]
+> To stary projekt wykonany w ramach konkursu w czasach szkoły średniej. Wykorzystuje m.in. daemonize.h oraz http.h, jedne z moich pierwszych bibliotek w C. Pisany na początku czasów COVID.
+
 Don't Panic to prosty, lekki i modularny daemon działający w tle. Jego głównym zadaniem jest wykonywanie modułów będących najczęściej skryptami powłoki (chociaż mogą być również napisane w dowolnym innym języku programowania) i przekazywanie ich standardowego wyjścia do powiadomień. Moduły najczęściej pobierają i przetwarzają dane z serwera i wypisują je na standardowe wyjście.
 
 ![Powiadomienie z modułu COVID](img/covid.png)
